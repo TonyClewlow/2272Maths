@@ -1,0 +1,165 @@
+<title>2272 Maths</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@500;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap">
+<style>
+/* Layout: squared exercise-book page; year timeline of half terms, each holding unit tiles; unit pages list lessons as "I can" checklists with links */
+:root{
+  --paper:#f6f8fc; --grid:#e3e9f4; --card:#ffffff; --ink:#14213d; --muted:#5a6680;
+  --line:#d5dcea; --accent:#2457d6; --accent-soft:#e6edfd; --practice:#b45309; --practice-soft:#fdf0e1;
+  --video:#c0263b; --video-soft:#fbe7ea;
+  --display:"Sora",ui-sans-serif,system-ui,sans-serif; --body:"Inter",ui-sans-serif,system-ui,sans-serif; --mono:"JetBrains Mono",ui-monospace,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0f1524; --grid:#18213a; --card:#151d31; --ink:#e6ebf7; --muted:#9aa6c2; --line:#26304a;
+  --accent:#7ea2ff; --accent-soft:#1c2a52; --practice:#f2a65a; --practice-soft:#3a2a17; --video:#ff8091; --video-soft:#3d1c25; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --paper:#0f1524; --grid:#18213a; --card:#151d31; --ink:#e6ebf7; --muted:#9aa6c2; --line:#26304a;
+  --accent:#7ea2ff; --accent-soft:#1c2a52; --practice:#f2a65a; --practice-soft:#3a2a17; --video:#ff8091; --video-soft:#3d1c25; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--paper);color:var(--ink);font:16px/1.55 var(--body);
+  background-image:linear-gradient(var(--grid) 1px,transparent 1px),linear-gradient(90deg,var(--grid) 1px,transparent 1px);background-size:24px 24px}
+.wrap{max-width:1080px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+header{background:var(--card);border-bottom:1px solid var(--line)}
+header .wrap{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px;padding-block:14px}
+.brand{display:flex;align-items:baseline;gap:8px;text-decoration:none;color:var(--ink)}
+.brand b{font:800 1.45rem/1 var(--display);letter-spacing:-.02em}
+.brand b span{color:var(--accent)}
+.brand i{font:500 .8rem var(--mono);color:var(--muted);font-style:normal}
+.years{display:flex;flex-wrap:wrap;gap:6px}
+.years a,.years span{font:600 .85rem var(--body);padding:6px 11px;border-radius:999px;border:1px solid var(--line);text-decoration:none;color:var(--muted)}
+.years a.on{background:var(--accent);border-color:var(--accent);color:var(--card)}
+.years span{opacity:.55;cursor:not-allowed}
+main{padding-block:28px 56px}
+h1,h2,h3{font-family:var(--display);text-wrap:balance;margin:0;letter-spacing:-.015em}
+h1{font-size:clamp(1.7rem,4vw,2.4rem);font-weight:800}
+.lede{color:var(--muted);max-width:62ch;margin:8px 0 0}
+.search{margin:22px 0 8px;display:flex}
+.search input{width:100%;max-width:460px;font:inherit;padding:10px 14px;border-radius:10px;border:1px solid var(--line);background:var(--card);color:var(--ink)}
+.search input:focus{outline:2px solid var(--accent);outline-offset:1px}
+.term{display:grid;grid-template-columns:150px 1fr;gap:18px;padding-block:22px;border-top:2px solid var(--ink)}
+.term:first-of-type{margin-top:22px}
+.term h2{font-size:1.05rem;font-weight:700}
+.term .when{font:500 .78rem var(--mono);color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
+.units{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:12px}
+.unit{display:flex;flex-direction:column;gap:6px;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;text-decoration:none;color:var(--ink);transition:border-color .15s,transform .15s}
+.unit:hover,.unit:focus-visible{border-color:var(--accent);transform:translateY(-2px);outline:none}
+.unit .n{font:500 .78rem var(--mono);color:var(--accent)}
+.unit h3{font-size:1.08rem;font-weight:700}
+.meta{display:flex;flex-wrap:wrap;gap:6px;margin-top:auto;padding-top:6px}
+.chip{font:600 .72rem var(--body);padding:3px 8px;border-radius:6px;background:var(--accent-soft);color:var(--accent)}
+.chip.v{background:var(--video-soft);color:var(--video)}
+.chip.q{background:var(--practice-soft);color:var(--practice)}
+.hits{display:grid;gap:8px;margin-top:16px}
+.hit{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:10px 14px;text-decoration:none;color:var(--ink)}
+.hit small{display:block;color:var(--muted)}
+.crumb{font-size:.9rem;margin-bottom:10px}
+.crumb a{color:var(--accent)}
+.uhead{display:flex;flex-wrap:wrap;gap:6px 14px;align-items:baseline}
+.uhead .n{font:500 1rem var(--mono);color:var(--accent)}
+.panel{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px;margin:22px 0 8px}
+.box{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px}
+.box h2{font-size:1rem;margin-bottom:4px}
+.box p{margin:0;color:var(--muted);font-size:.92rem}
+.box.slides{border-style:dashed}
+.lessons{display:grid;gap:12px;margin-top:22px;counter-reset:l}
+.lesson{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 18px;display:grid;grid-template-columns:2.2rem 1fr;gap:0 10px}
+.lesson::before{counter-increment:l;content:counter(l);font:500 .9rem var(--mono);color:var(--muted);padding-top:2px}
+.lesson>div{min-width:0}
+.lesson h3{font-size:1.1rem;font-weight:700}
+.lesson ul{margin:8px 0 0;padding:0;list-style:none;display:grid;gap:4px}
+.lesson li{padding-left:1.5rem;position:relative}
+.lesson li::before{content:"";position:absolute;left:0;top:.35em;width:.85em;height:.85em;border:1.5px solid var(--muted);border-radius:3px}
+.lesson li em{font-style:normal;color:var(--muted)}
+.links{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.btn{display:inline-flex;align-items:center;gap:6px;font:600 .85rem var(--body);padding:7px 12px;border-radius:8px;text-decoration:none}
+.btn.v{background:var(--video-soft);color:var(--video)}
+.btn.q{background:var(--practice-soft);color:var(--practice)}
+.btn:hover,.btn:focus-visible{outline:2px solid currentColor;outline-offset:1px}
+.btn svg{width:14px;height:14px;fill:currentColor}
+.none{font-size:.85rem;color:var(--muted);margin-top:12px}
+.pager{display:flex;justify-content:space-between;gap:12px;margin-top:28px;flex-wrap:wrap}
+.pager a{color:var(--accent);font-weight:600;text-decoration:none}
+footer{color:var(--muted);font-size:.82rem;padding-block:0 32px}
+@media (max-width:640px){.term{grid-template-columns:1fr;gap:10px}}
+@media (prefers-reduced-motion:reduce){.unit{transition:none}.unit:hover{transform:none}}
+</style>
+
+<header><div class="wrap">
+  <a class="brand" href="#"><b id="siteName"></b><i>Pupil hub</i></a>
+  <nav class="years" aria-label="Year group"></nav>
+</div></header>
+<main class="wrap" id="app"></main>
+<footer class="wrap">Videos open on YouTube. Practice questions are free worksheets from Maths Genie, with answers at the end.</footer>
+
+<script>
+const SITE_NAME = "2272 Maths";           // change the site name here
+const YEARS = [7,8,9,10,11,12,13];
+const ACTIVE_YEAR = 7;
+const DATA = __DATA__;
+
+document.getElementById('siteName').innerHTML = SITE_NAME.replace(/^(\d+)/,'<span>$1</span>');
+document.querySelector('.years').innerHTML = YEARS.map(y=> y===ACTIVE_YEAR
+  ? `<a class="on" href="#" aria-current="page">Year ${y}</a>`
+  : `<span title="Coming soon">Year ${y}</span>`).join('');
+
+const esc = s => String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const units = DATA.flatMap(t=>t.units.map(u=>({...u,term:t.name})));
+const plural=(n,w)=>`${n} ${w}${n===1?'':'s'}`;
+const playIcon='<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 2.5v11l9-5.5z"/></svg>';
+const docIcon='<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 1h7l3 3v11H3zm6 1v3h3"/></svg>';
+const app=document.getElementById('app');
+
+function counts(u){
+  const v=u.lessons.reduce((a,l)=>a+l.videos.length,0), q=u.lessons.reduce((a,l)=>a+l.questions.length,0);
+  return `<div class="meta"><span class="chip">${plural(u.lessons.length,'lesson')}</span>${v?`<span class="chip v">${plural(v,'video')}</span>`:''}${q?`<span class="chip q">${q} practice</span>`:''}</div>`;
+}
+
+function home(){
+  document.title = SITE_NAME;
+  app.innerHTML = `<h1>Year ${ACTIVE_YEAR}: the year ahead</h1>
+  <p class="lede">Every topic you will study this year, in order. Open a topic to see what you will learn, watch the videos and try practice questions.</p>
+  <div class="search"><input id="q" type="search" placeholder="Search for a topic, e.g. fractions, nth term, area" aria-label="Search topics"></div>
+  <div id="list">${DATA.map(t=>`<section class="term"><div><div class="when">${esc(t.name)}</div></div>
+    <div class="units">${t.units.map(u=>`<a class="unit" href="#unit-${u.num}"><span class="n">Unit ${u.num}</span><h3>${esc(u.name)}</h3>${counts(u)}</a>`).join('')}</div></section>`).join('')}</div>`;
+  const q=document.getElementById('q'), list=document.getElementById('list'), base=list.innerHTML;
+  q.addEventListener('input',()=>{
+    const s=q.value.trim().toLowerCase();
+    if(!s){list.innerHTML=base;return}
+    const hits=[];
+    units.forEach(u=>u.lessons.forEach(l=>{
+      if((u.name+' '+l.name+' '+l.objectives.join(' ')).toLowerCase().includes(s)) hits.push({u,l});
+    }));
+    list.innerHTML = hits.length ? `<div class="hits">${hits.map(h=>`<a class="hit" href="#unit-${h.u.num}"><b>${esc(h.l.name)}</b><small>Unit ${h.u.num}: ${esc(h.u.name)} · ${esc(h.u.term)}</small></a>`).join('')}</div>`
+      : `<p class="lede">No topics match "${esc(q.value)}". Try a shorter word.</p>`;
+  });
+}
+
+function unitPage(n){
+  const i=units.findIndex(u=>u.num===n); if(i<0) return home();
+  const u=units[i], prev=units[i-1], next=units[i+1];
+  document.title = `${u.name} · ${SITE_NAME}`;
+  const allQ=[...new Set(u.lessons.flatMap(l=>l.questions))];
+  app.innerHTML = `<div class="crumb"><a href="#">Year ${ACTIVE_YEAR}</a> · ${esc(u.term)}</div>
+  <div class="uhead"><span class="n">Unit ${u.num}</span><h1>${esc(u.name)}</h1></div>
+  <div class="panel">
+    <div class="box slides"><h2>Topic slides</h2><p>A short set of slides covering the key ideas and worked examples. Coming soon.</p></div>
+    <div class="box"><h2>Practice questions</h2><p>${allQ.length?`${plural(allQ.length,'worksheet')} for this unit, linked under each lesson below.`:'Practice worksheets for this unit are coming soon.'}</p></div>
+  </div>
+  <div class="lessons">${u.lessons.map(l=>`<article class="lesson"><div>
+    <h3>${esc(l.name)}</h3>
+    ${l.objectives.length?`<ul>${l.objectives.map(o=>`<li><em>I can</em> ${esc(/^[A-Z][a-z]/.test(o)?o.charAt(0).toLowerCase()+o.slice(1):o)}</li>`).join('')}</ul>`:''}
+    ${(l.videos.length||l.questions.length)?`<div class="links">
+      ${l.videos.map((v,k)=>`<a class="btn v" href="${esc(v)}" target="_blank" rel="noopener">${playIcon}Watch video${l.videos.length>1?' '+(k+1):''}</a>`).join('')}
+      ${l.questions.map((v,k)=>`<a class="btn q" href="${esc(v)}" target="_blank" rel="noopener">${docIcon}Practice questions${l.questions.length>1?' '+(k+1):''}</a>`).join('')}
+    </div>`:`<p class="none">Video and practice links coming soon.</p>`}
+  </div></article>`).join('')}</div>
+  <nav class="pager">${prev?`<a href="#unit-${prev.num}">← Unit ${prev.num}: ${esc(prev.name)}</a>`:'<span></span>'}${next?`<a href="#unit-${next.num}">Unit ${next.num}: ${esc(next.name)} →</a>`:''}</nav>`;
+}
+
+function route(){
+  const m=location.hash.match(/^#unit-(\d+)$/);
+  m?unitPage(+m[1]):home();
+  window.scrollTo(0,0);
+}
+addEventListener('hashchange',route); route();
+</script>

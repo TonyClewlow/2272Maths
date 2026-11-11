@@ -1,0 +1,1350 @@
+[
+ {
+  "name": "Half Term 1",
+  "units": [
+   {
+    "name": "Sequences",
+    "num": 1,
+    "lessons": [
+     {
+      "name": "Types of Sequences",
+      "objectives": [
+       "Understand the difference between linear/arithmetic and non-linear sequences",
+       "Recognise an linear/arithmetic and geometric sequence"
+      ],
+      "videos": [],
+      "questions": [
+       "https://www.mathsgenie.co.uk/resources/4-igcse-sequences.pdf"
+      ]
+     },
+     {
+      "name": "Continuing Sequences",
+      "objectives": [
+       "Continue arithemetic and geometric sequences"
+      ],
+      "videos": [],
+      "questions": []
+     },
+     {
+      "name": "Describing Sequences",
+      "objectives": [
+       "Describe how a sequence grows (term to term rule)"
+      ],
+      "videos": [],
+      "questions": []
+     },
+     {
+      "name": "Pattern Sequences",
+      "objectives": [
+       "Describe and continue pattern sequences"
+      ],
+      "videos": [],
+      "questions": []
+     },
+     {
+      "name": "Using Nth Term",
+      "objectives": [
+       "Use the nth term to generate terms of a sequence"
+      ],
+      "videos": [
+       "https://youtu.be/-6O73LQsEmw"
+      ],
+      "questions": []
+     },
+     {
+      "name": "Finding Nth Term",
+      "objectives": [
+       "Find the nth term of a sequence"
+      ],
+      "videos": [
+       "https://youtu.be/fifedKPyLLA"
+      ],
+      "questions": []
+     }
+    ]
+   },
+   {
+    "name": "Algebra",
+    "num": 2,
+    "lessons": [
+     {
+      "name": "Functions",
+      "objectives": [
+       "Find outputs of simple functions written in words and using symbols.",
+       "Use Inverses to find input of a simple function machine."
+      ],
+      "videos": [
+       "https://youtu.be/uP38F-jKoQM"
+      ],
+      "questions": [
+       "https://www.mathsgenie.co.uk/resources/2-function-machines.pdf"
+      ]
+     },
+     {
+      "name": "Negative Numbers",
+      "objectives": [
+       "Add and subtract with negative numbers.",
+       "Multiply and divide with negative numbers."
+      ],
+      "videos": [
+       "https://youtu.be/I_Hs1pvu_fY",
+       "https://youtu.be/Yv-T8JpM8IY"
+      ],
+      "questions": [
+       "https://www.mathsgenie.co.uk/resources/1-negative-numbers.pdf"
+      ]
+     },
+     {
+      "name": "Simplifying expressions",
+      "objectives": [
+       "Use letters to represent unknowns in algebraic expressions.",
+       "Simplify linear algebraic expressions by collecting like terms.",
+       "Multiply and divide algebraic terms."
+      ],
+      "videos": [
+       "https://youtu.be/RVURd0QB_ao"
+      ],
+      "questions": [
+       "https://www.mathsgenie.co.uk/resources/2-simplifying-algebra.pdf"
+      ]
+     },
+     {
+      "name": "Writing expressions",
+      "objectives": [
+       "Write expressions from word descriptions using addition, subtraction, multiplication and division.",
+       "Write expressions to represent function machines."
+      ],
+      "videos": [],
+      "questions": [
+       "https://www.mathsgenie.co.uk/resources/2-writing-an-expression.pdf"
+      ]
+     },
+     {
+      "name": "Formulae",
+      "objectives": [
+       "Identify formulae.",
+       "Write simple formulae in words.",
+       "Write Simple formulae using letter symbols."
+      ],
+      "videos": [],
+      "questions": []
+     },
+     {
+      "name": "Substitution",
+      "objectives": [
+       "Substitute integers into expressions and formula written in words.",
+       "Substitute integers into expressions and formula written with letters."
+      ],
+      "videos": [
+       "https://youtu.be/G4XpJH7a7eI"
+      ],
+      "questions": [
+       "https://www.mathsgenie.co.uk/resources/3-substitution.pdf"
+      ]
+     },
+     {
+      "name": "Expanding Single brackets",
+      "objectives": [
+       "Expand brackets with a numerical factor",
+       "Expand brackets with an algebraic factor",
+       "Expand and simplify expressions"
+      ],
+      "videos": [
+       "https://youtu.be/E88KDkXeJrA"
+      ],
+      "questions": [
+       "https://www.mathsgenie.co.uk/resources/4-expanding-and-factorising.pdf"
+      ]
+     },
+     {
+      "name": "Factorising with Single Brackets",
+      "objectives": [
+       "Factorise expressions with a numerical factor",
+       "Factorise expressions with an algebraic factor"
+      ],
+      "videos": [
+       "https://youtu.be/IFsWbLvx6yI"
+      ],
+      "questions": []
+     },
+     {
+      "name": "Expand Double Brackets",
+      "objectives": [
+       "Expand double brackets"
+      ],
+      "videos": [
+       "https://youtu.be/iDZeDqsLPQY"
+      ],
+      "questions": [
+       "https://www.mathsgenie.co.uk/resources/5-expanding-and-factorising-quadratics-ws.pdf"
+      ]
+     },
+     {
+      "name": "Factorising Quadratics",
+      "objectives": [
+       "Factorising quadratics of the form ax²+ bx + c with a=1",
+       "Factorise difference of two squares"
+      ],
+      "videos": [
+       "https://youtu.be/FRRkLZt31S0"
+      ],
+      "questions": []
+     },
+     {
+      "name": "Expand Triple Brackets",
+      "objectives": [
+       "Expand Triple Brackets"
+      ],
+      "videos": [
+       "https://youtu.be/xQ2z7YuKkAc"
+      ],
+      "questions": [
+       "https://www.mathsgenie.co.uk/resources/6-expanding-triple-brackets.pdf"
+      ]
+     },
+     {
+      "name": "Factorise Harder Quadratics",
+      "objectives": [
+       "Factorising quadratics of the form ax²+ bx + c with a≠1"
+      ],
+      "videos": [
+       "https://youtu.be/v2sPNXdabI0"
+      ],
+      "questions": [
+       "https://www.mathsgenie.co.uk/resources/7-factorising-harder-quadratics.pdf"
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Expressions and Equations",
+    "num": 3,
+    "lessons": [
+     {
+      "name": "Solving One step Equations",
+      "objectives": [
+       "Solve one step equations using function machines."
+      ],
+      "videos": [
+       "https://youtu.be/2_yu5K3ZRWI"
+      ],
+      "questions": [
+       "https://www.mathsgenie.co.uk/resources/3-solving-one-step-equations.pdf"
+      ]
+     },
+     {
+      "name": "Solving Two Step Equations",
+      "objectives": [
+       "Solve two step equations of the form ax ± b= c using function machines."
+      ],
+      "videos": [
+       "https://youtu.be/vNDpWDlWaRI"
+      ],
+      "questions": [
+       "https://www.mathsgenie.co.uk/resources/3-solving-equations.pdf"
+      ]
+     },
+     {
+      "name": "The balancing Method",
+      "objectives": [
+       "Solve one and two step equations using the balancing method."
+      ],
+      "videos": [],
+      "questions": []
+     },
+     {
+      "name": "Solving harder Equations with Brackets and Fractions",
+      "objectives": [
+       "Solve harder two step equations involving fractions and brackets."
+      ],
+      "videos": [],
+      "questions": []
+     },
+     {
+      "name": "Solving Equations with Unknowns on both sides",
+      "objectives": [
+       "Solve equations withh unknowns on both sides, including fractions and brackets."
+      ],
+      "videos": [
+       "https://youtu.be/tgZKpCX8yEs"
+      ],
+      "questions": []
+     },
+     {
+      "name": "Forming and Solving Equations",
+      "objectives": [
+       "Form and solve equations"
+      ],
+      "videos": [
+       "https://youtu.be/q2dGdDav9MM"
+      ],
+      "questions": [
+       "https://www.mathsgenie.co.uk/resources/4-forming-and-solving-equations.pdf"
+      ]
+     },
+     {
+      "name": "Inequalities",
+      "objectives": [
+       "Represent inequalities on a number line, define an inequality represented on a number line",
+       "Solve inequalities"
+      ],
+      "videos": [
+       "https://youtu.be/r4tE-lBRB0I",
+       "https://youtu.be/bGps9ut59QM"
+      ],
+      "questions": [
+       "https://www.mathsgenie.co.uk/resources/4-inequalities.pdf"
+      ]
+     },
+     {
+      "name": "Solving Quadratics",
+      "objectives": [
+       "Solving Quadratics by factorising",
+       "Solve Quadratics using quadratic formula"
+      ],
+      "videos": [
+       "https://youtu.be/m-qyV6C56ec",
+       "https://youtu.be/hoy6dE0plLw"
+      ],
+      "questions": [
+       "https://www.mathsgenie.co.uk/resources/5-solving-quadratics-by-factorising.pdf",
+       "https://www.mathsgenie.co.uk/resources/7-quadratic-formula.pdf"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Half Term 2",
+  "units": [
+   {
+    "name": "Place Value & Decimals",
+    "num": 4,
+    "lessons": [
+     {
+      "name": "Rounding to Powers of 10",
+      "objectives": [
+       "Round numbers to the nearest 10, 100, 1000 etc."
+      ],
+      "videos": [
+       "https://youtu.be/OZHhyyogIaM"
+      ],
+      "questions": []
+     },
+     {
+      "name": "Order Integers",
+      "objectives": [
+       "Compare and Order Integers."
+      ],
+      "videos": [],
+      "questions": []
+     },
+     {
+      "name": "Place Value for Decimals",
+      "objectives": [
+       "Understand and use place value for decimals."
+      ],
+      "videos": [],
+      "questions": []
+     },
+     {
+      "name": "Decimals on a Number Line",
+      "objectives": [
+       "Position decimals on a number line."
+      ],
+      "videos": [],
+      "questions": []
+     },
+     {
+      "name": "Compare and Order Decimals",
+      "objectives": [
+       "Compare and order decimals."
+      ],
+      "videos": [
+       "https://youtu.be/A35XZqxSub8"
+      ],
+      "questions": [
+       "https://www.mathsgenie.co.uk/resources/1-rounding.pdf"
+      ]
+     },
+     {
+      "name": "Round to Decimal Places",
+      "objectives": [
+       "Round to a given number of decimal places."
+      ],
+      "videos": [],
+      "questions": []
+     },
+     {
+      "name": "Round to Significant Figures",
+      "objectives": [
+       "Round integers to signficant figures",
+       "Round decimals to signficant figures"
+      ],
+      "videos": [],
+      "questions": []
+     },
+     {
+      "name": "Numbers in Standard Form",
+      "objectives": [
+       "Write large numbers in standard form.",
+       "Write small numbers in standard form."
+      ],
+      "videos": [
+       "https://youtu.be/iY-fARuYciI"
+      ],
+      "questions": [
+       "https://www.mathsgenie.co.uk/resources/5-standard-form.pdf"
+      ]
+     },
+     {
+      "name": "Operations in Standard Form",
+      "objectives": [
+       "Multiply and divide with numbers in standard form",
+       "Add and subtract with numbers in standard form"
+      ],
+      "videos": [
+       "https://youtu.be/-stF6pUCckA",
+       "https://youtu.be/iY-fARuYciI"
+      ],
+      "questions": []
+     }
+    ]
+   },
+   {
+    "name": "More Place Value",
+    "num": 5,
+    "lessons": [
+     {
+      "name": "Orders of Operations",
+      "objectives": [
+       "Apply the orders of operations to calculations"
+      ],
+      "videos": [
+       "https://youtu.be/sGzV8TmtO-Y"
+      ],
+      "questions": [
+       "https://www.mathsgenie.co.uk/resources/1-the-order-of-operations.pdf"
+      ]
+     },
+     {
+      "name": "Estimations of Calculations",
+      "objectives": [
+       "Estimate calculations by rounding"
+      ],
+      "videos": [
+       "https://youtu.be/Ul_JfpdXbh8"
+      ],
+      "questions": [
+       "https://www.mathsgenie.co.uk/resources/3-estimation.pdf"
+      ]
+     },
+     {
+      "name": "Bounds",
+      "objectives": [
+       "Find upper and lower bounds of rounded numbers",
+       "Perform calculations with bounds (Find bounds of expressions and formulae)"
+      ],
+      "videos": [
+       "https://youtu.be/t1Ze9RvxWP0"
+      ],
+      "questions": [
+       "https://www.mathsgenie.co.uk/resources/7-bounds.pdf"
+      ]
+     }
+    ]
+   },
+   {
+    "name": "FDP Equivalence",
+    "num": 6,
+    "lessons": [
+     {
+      "name": "Percentages",
+      "objectives": [
+       "Represent percentages on a grid"
+      ],
+      "videos": [],
+      "questions": []
+     },
+     {
+      "name": "Fractions",
+      "objectives": [
+       "Write fractions",
+       "Represent fractions on a diagram",
+       "Identify equivalent fractions",
+       "Simplify fractions",
+       "Order fractions"
+      ],
+      "videos": [
+       "https://youtu.be/boWSLfSh9c0"
+      ],
+      "questions": [
+       "https://www.mathsgenie.co.uk/resources/2-writing-simplifying-and-ordering-fractions.pdf"
+      ]
+     },
+     {
+      "name": "Converting between fractions decimals and percentages",
+      "objectives": [
+       "FDP conversion with simple denominators",
+       "FDP conversion with harder deniminators",
+       "FPD conversions with improper fractions"
+      ],
+      "videos": [
+       "https://youtu.be/ASO9pF4ydgE"
+      ],
+      "questions": [
+       "https://www.mathsgenie.co.uk/resources/2-fractions-decimals-and-percentages.pdf"
+      ]
+     },
+     {
+      "name": "Recurring decimals to fractions",
+      "objectives": [
+       "Convert simple recurring decimals to fractions",
+       "Convert complex recurring decimals to fractions"
+      ],
+      "videos": [
+       "https://youtu.be/RCeeVmVuvGU"
+      ],
+      "questions": [
+       "https://www.mathsgenie.co.uk/resources/6-recurring-decimals.pdf"
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Ratio",
+    "num": 7,
+    "lessons": [
+     {
+      "name": "Ratio Notation",
+      "objectives": [
+       "Write and use ratio notation"
+      ],
+      "videos": [
+       "https://youtu.be/kyvKbg7Ux3c"
+      ],
+      "questions": [
+       "https://www.mathsgenie.co.uk/resources/3-writing-and-simplifying-ratio.pdf"
+      ]
+     },
+     {
+      "name": "Ratio and Fractions",
+      "objectives": [
+       "Converting between ratio and fractions when describing proportions"
+      ],
+      "videos": [],
+      "questions": []
+     },
+     {
+      "name": "Equivalent Ratios",
+      "objectives": [
+       "Simplify a ratio (to it's simplest form)",
+       "Find equivalent ratios to solve (sharing in a ratio given one part)"
+      ],
+      "videos": [
+       "https://youtu.be/so2sA0mvqFI"
+      ],
+      "questions": [
+       "https://www.mathsgenie.co.uk/resources/3-sharing-ratio.pdf"
+      ]
+     },
+     {
+      "name": "Sharing in a Ratio",
+      "objectives": [
+       "Share a quantity in a given ratio (sharing in a ratio given the total)",
+       "Sharing in a ratio given the difference"
+      ],
+      "videos": [],
+      "questions": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Half Term 3",
+  "units": [
+   {
+    "name": "Area and Volume",
+    "num": 8,
+    "lessons": [
+     {
+      "name": "Perimeter",
+      "objectives": [
+       "Find perimeter of standard shapes"
+      ],
+      "videos": [
+       "https://youtu.be/eckgjqo62jI"
+      ],
+      "questions": [
+       "https://www.mathsgenie.co.uk/resources/2-area-and-perimeter.pdf"
+      ]
+     },
+     {
+      "name": "Area of Rectangles and Triangles",
+      "objectives": [
+       "Find area of rectangles and triangles"
+      ],
+      "videos": [
+       "https://youtu.be/YteYG_GyAGI"
+      ],
+      "questions": []
+     },
+     {
+      "name": "Area of Other Quadrilaterals",
+      "objectives": [
+       "Find area of kites and parallelograms",
+       "Find area of trapezia"
+      ],
+      "videos": [],
+      "questions": []
+     },
+     {
+      "name": "Compound Shapes",
+      "objectives": [
+       "Find the area and perimeter of compound shapes"
+      ],
+      "videos": [
+       "https://youtu.be/fF0jNQWYABI"
+      ],
+      "questions": [
+       "https://www.mathsgenie.co.uk/resources/37_area-of-compound-shapes.pdf"
+      ]
+     },
+     {
+      "name": "Circumference",
+      "objectives": [
+       "Find circumference of a circle"
+      ],
+      "videos": [
+       "https://youtu.be/lqqPLbgjUSE"
+      ],
+      "questions": [
+       "https://www.mathsgenie.co.uk/resources/3-circles-area-and-circumference.pdf"
+      ]
+     },
+     {
+      "name": "Area of a Circle",
+      "objectives": [
+       "Find area of a circle"
+      ],
+      "videos": [
+       "https://youtu.be/GjS0SrvS0zk"
+      ],
+      "questions": []
+     },
+     {
+      "name": "Semi Circles and Quarter Circles",
+      "objectives": [
+       "Find area and perimeter of semi circles and quarter circles"
+      ],
+      "videos": [],
+      "questions": []
+     },
+     {
+      "name": "Compound Shapes with Circles",
+      "objectives": [
+       "Find area and circumference of compound shapes involving circles"
+      ],
+      "videos": [],
+      "questions": []
+     },
+     {
+      "name": "Cubes and Cuboids",
+      "objectives": [
+       "Find volume of cubes and cuboids",
+       "Find surface area of cubes and cuboids"
+      ],
+      "videos": [
+       "https://youtu.be/-gro4uQvfuI",
+       "https://youtu.be/llrOWOaKsHo"
+      ],
+      "questions": [
+       "https://www.mathsgenie.co.uk/resources/4-volume-of-a-prism.pdf",
+       "https://www.mathsgenie.co.uk/resources/4-surface-area.pdf"
+      ]
+     },
+     {
+      "name": "Prisms",
+      "objectives": [
+       "Find volume of other prisms",
+       "Find surface area of other prisms"
+      ],
+      "videos": [
+       "https://youtu.be/-gro4uQvfuI",
+       "https://youtu.be/llrOWOaKsHo"
+      ],
+      "questions": [
+       "https://www.mathsgenie.co.uk/resources/4-volume-of-a-prism.pdf",
+       "https://www.mathsgenie.co.uk/resources/4-surface-area.pdf"
+      ]
+     },
+     {
+      "name": "Cylinders",
+      "objectives": [
+       "Find volume of cylinders",
+       "Find surface area of cylinders"
+      ],
+      "videos": [
+       "https://youtu.be/tsnRtSQYgu4"
+      ],
+      "questions": [
+       "https://www.mathsgenie.co.uk/resources/4-cylinders.pdf"
+      ]
+     },
+     {
+      "name": "Sector Area and Arc Lengths",
+      "objectives": [
+       "Find area of sectors",
+       "Find arc lengths"
+      ],
+      "videos": [
+       "https://youtu.be/EuRqCYukerA",
+       "https://youtu.be/MgfltkJ3VWQ"
+      ],
+      "questions": [
+       "https://www.mathsgenie.co.uk/resources/5-sector-area-and-arc-length.pdf"
+      ]
+     },
+     {
+      "name": "Spheres and Cones",
+      "objectives": [
+       "Find volume of spheres and Cones",
+       "Find surface of spheres and cones"
+      ],
+      "videos": [
+       "https://youtu.be/6lKMby1F8lY"
+      ],
+      "questions": [
+       "https://www.mathsgenie.co.uk/resources/5-spheres-and-cones.pdf"
+      ]
+     },
+     {
+      "name": "Pyramids",
+      "objectives": [
+       "Volume of Pyramids"
+      ],
+      "videos": [
+       "https://youtu.be/qPQc9vlKQzE"
+      ],
+      "questions": []
+     }
+    ]
+   },
+   {
+    "name": "Probability",
+    "num": 9,
+    "lessons": [
+     {
+      "name": "The probbability Scale",
+      "objectives": [
+       "Understand and use the language of probability/ describe probabilities in words",
+       "Understand and use the probability scale"
+      ],
+      "videos": [
+       "https://youtu.be/-RevYzm2PNk"
+      ],
+      "questions": [
+       "https://www.mathsgenie.co.uk/resources/2-writing-probability-and-the-probability-scale.pdf"
+      ]
+     },
+     {
+      "name": "Calculating Probabilities",
+      "objectives": [
+       "Find the probability of a simple event"
+      ],
+      "videos": [],
+      "questions": []
+     },
+     {
+      "name": "Mutually Exclusive Events",
+      "objectives": [
+       "Understand and indentify mutually exclusive events",
+       "Calculating probabilities for mutally exclusive events; P(A or B)= P(A) + P(B)"
+      ],
+      "videos": [],
+      "questions": []
+     },
+     {
+      "name": "Sample Space Diagrams",
+      "objectives": [
+       "Construct a sample space diagram",
+       "Use a sample space diagram to calculate probabilities"
+      ],
+      "videos": [],
+      "questions": []
+     },
+     {
+      "name": "Two Way Tables",
+      "objectives": [
+       "Construct a two way table",
+       "Use a two way table to calculate probabilities"
+      ],
+      "videos": [
+       "https://youtu.be/PCHTucQ4oaM"
+      ],
+      "questions": [
+       "https://www.mathsgenie.co.uk/resources/3-two-way-tables.pdf"
+      ]
+     },
+     {
+      "name": "Relative Frequency",
+      "objectives": [
+       "Estimate the number of expected outcomes",
+       "Find probabilities and estimate outcomes from tables"
+      ],
+      "videos": [
+       "https://youtu.be/QDnDtxDEHWg"
+      ],
+      "questions": [
+       "https://www.mathsgenie.co.uk/resources/4-probability-and-relative-frequency.pdf"
+      ]
+     },
+     {
+      "name": "Venn Diagrams",
+      "objectives": [
+       "Understand and Use Venn diagram/ set notation",
+       "Draw Venn diagrams",
+       "Use Venn diagrams to calculate probabilities"
+      ],
+      "videos": [
+       "https://youtu.be/FZhYJb48vn0",
+       "https://youtu.be/hWbv8oDTwbw"
+      ],
+      "questions": [
+       "https://www.mathsgenie.co.uk/resources/5-venn-diagrams.pdf"
+      ]
+     },
+     {
+      "name": "Independent and Conditional Events",
+      "objectives": [
+       "Understand the different between independent and conditional events",
+       "Calculate probability of independent events P(A and B)=P(A)P(B)"
+      ],
+      "videos": [],
+      "questions": []
+     },
+     {
+      "name": "Probability Trees",
+      "objectives": [
+       "Draw probability trees for independent events",
+       "Calculate probabilities from a probability tree for independent events",
+       "Draw probability trees for conditional events",
+       "Calculate probabilities from a probability tree for conditional events"
+      ],
+      "videos": [
+       "https://youtu.be/aEPBad8dd8k",
+       "https://youtu.be/gRL9FFOS8f8"
+      ],
+      "questions": [
+       "https://www.mathsgenie.co.uk/resources/5-probability-trees.pdf",
+       "https://www.mathsgenie.co.uk/resources/7-conditional-probability.pdf"
+      ]
+     },
+     {
+      "name": "Probability Equations",
+      "objectives": [
+       "Form and solve equations from probability events"
+      ],
+      "videos": [
+       "https://youtu.be/9BlPhxB1Qek"
+      ],
+      "questions": [
+       "https://www.mathsgenie.co.uk/resources/9-probability-equation.pdf"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Half Term 4",
+  "units": [
+   {
+    "name": "Operating with Fractions",
+    "num": 10,
+    "lessons": [
+     {
+      "name": "Fractions of an Amount",
+      "objectives": [
+       "Find a fraction of an amount"
+      ],
+      "videos": [
+       "https://youtu.be/NDoA_RZcCYI"
+      ],
+      "questions": [
+       "https://www.mathsgenie.co.uk/resources/2-fractions-of-an-amount.pdf"
+      ]
+     },
+     {
+      "name": "Adding and Subtracting Fractions",
+      "objectives": [
+       "Add and subtract fractions with same denominators",
+       "Add and subtract fractions with different denominators"
+      ],
+      "videos": [
+       "https://youtu.be/HmjCV7iOd1s"
+      ],
+      "questions": [
+       "https://www.mathsgenie.co.uk/resources/3-fractions.pdf"
+      ]
+     },
+     {
+      "name": "Multiplying Fractions",
+      "objectives": [
+       "Multiple with fractions"
+      ],
+      "videos": [
+       "https://youtu.be/uELAh-WQam4"
+      ],
+      "questions": []
+     },
+     {
+      "name": "Dividing Fractions",
+      "objectives": [
+       "Find the reciprocal of a fraction",
+       "Divide with fractions"
+      ],
+      "videos": [
+       "https://youtu.be/QSENvjw7lmo"
+      ],
+      "questions": []
+     },
+     {
+      "name": "Operations with Mixed Numbers",
+      "objectives": [
+       "Convert between improper fractions and mixed numbers",
+       "Perform the 4 operations with mixed numbers"
+      ],
+      "videos": [],
+      "questions": []
+     },
+     {
+      "name": "Simplifying Algebraic Fractions",
+      "objectives": [
+       "Simplify simple algebraic fractions",
+       "Simplify algebraic fractions by factorising"
+      ],
+      "videos": [
+       "https://youtu.be/gMojR-U4NDQ"
+      ],
+      "questions": [
+       "https://www.mathsgenie.co.uk/resources/7-algebraic-fractions.pdf"
+      ]
+     },
+     {
+      "name": "Operations with Algebraic fractions",
+      "objectives": [
+       "Multiply and Divide algebraic fractions",
+       "Add and subtract algebraic fractions"
+      ],
+      "videos": [],
+      "questions": []
+     },
+     {
+      "name": "Solving with Algebraic Fractions",
+      "objectives": [
+       "Solving with algebraic fractions"
+      ],
+      "videos": [
+       "https://youtu.be/waEkFiYSOhU"
+      ],
+      "questions": []
+     }
+    ]
+   },
+   {
+    "name": "Percentages",
+    "num": 11,
+    "lessons": [
+     {
+      "name": "Percentages",
+      "objectives": [
+       "Give one quantity as a percentage of another quantity"
+      ],
+      "videos": [],
+      "questions": []
+     },
+     {
+      "name": "Percentage of an amount",
+      "objectives": [
+       "Find the percentage of an amount using calculator methods"
+      ],
+      "videos": [
+       "https://youtu.be/d4Lrj3IS1NA"
+      ],
+      "questions": [
+       "https://www.mathsgenie.co.uk/resources/3-percentages.pdf"
+      ]
+     },
+     {
+      "name": "Percentage increases and decreases",
+      "objectives": [
+       "Perform percentage increases and decreases"
+      ],
+      "videos": [],
+      "questions": []
+     },
+     {
+      "name": "Percentage change",
+      "objectives": [
+       "Find the percentage change",
+       "Calculate percentage profit"
+      ],
+      "videos": [
+       "https://youtu.be/mnqdiuB0Dr0"
+      ],
+      "questions": [
+       "https://www.mathsgenie.co.uk/resources/3-percentage-change.pdf"
+      ]
+     },
+     {
+      "name": "Compound Interest and Depreciation",
+      "objectives": [
+       "Solve problems involving compound interest and depreciation"
+      ],
+      "videos": [
+       "https://youtu.be/1C0WUwl2LsU"
+      ],
+      "questions": [
+       "https://www.mathsgenie.co.uk/resources/5-reverse-percentages.pdf"
+      ]
+     },
+     {
+      "name": "Reverse Percentage",
+      "objectives": [
+       "Solve reverse percentage problems"
+      ],
+      "videos": [
+       "https://youtu.be/6_zZcLsmVJ4"
+      ],
+      "questions": [
+       "https://www.mathsgenie.co.uk/resources/4-compound-interest.pdf"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Half Term 5 & 6",
+  "units": [
+   {
+    "name": "Calculating Averages & Displaying Data",
+    "num": 12,
+    "lessons": [
+     {
+      "name": "Averages and range from a set of data",
+      "objectives": [
+       "Find the mode, median, mean and range of a data set",
+       "Describe advantages and disadvantages of mode, median and mean"
+      ],
+      "videos": [
+       "https://youtu.be/vwMSeqDky3I"
+      ],
+      "questions": [
+       "https://www.mathsgenie.co.uk/resources/2-averages.pdf"
+      ]
+     },
+     {
+      "name": "Averages from a Frequency Table",
+      "objectives": [
+       "Find the class, median, mean and range from a frequency table"
+      ],
+      "videos": [
+       "https://youtu.be/ETA4AIPfhbg"
+      ],
+      "questions": [
+       "https://www.mathsgenie.co.uk/resources/4-averages-from-frequency-tables.pdf"
+      ]
+     },
+     {
+      "name": "Averages from Grouped Frequency Tables",
+      "objectives": [
+       "Find the modal class, class containing the median and estimate the range from a grouped frequency table",
+       "Estimate the mean from a grouped frequency table"
+      ],
+      "videos": [],
+      "questions": []
+     },
+     {
+      "name": "Comparing Data",
+      "objectives": [
+       "Compare data using averages and range"
+      ],
+      "videos": [
+       "https://youtu.be/kVr15gM0tCE"
+      ],
+      "questions": [
+       "https://www.mathsgenie.co.uk/resources/5-igcse-data.pdf"
+      ]
+     },
+     {
+      "name": "Representing Data",
+      "objectives": [
+       "Draw and interpret information from tally charts",
+       "Draw and interpret information from pictograms",
+       "Draw and interpret information from Bar Charts"
+      ],
+      "videos": [
+       "https://youtu.be/oHH6NgBpGNo"
+      ],
+      "questions": [
+       "https://www.mathsgenie.co.uk/resources/1-pictograms.pdf",
+       "https://www.mathsgenie.co.uk/resources/2-bar-charts.pdf"
+      ]
+     },
+     {
+      "name": "More Bar Charts",
+      "objectives": [
+       "Draw and interpret dual bar charts",
+       "Draw and interpret compound bar charts"
+      ],
+      "videos": [],
+      "questions": []
+     },
+     {
+      "name": "Pie Charts",
+      "objectives": [
+       "Draw and measure angles",
+       "Draw and interpret pie charts"
+      ],
+      "videos": [
+       "https://youtu.be/oHH6NgBpGNo"
+      ],
+      "questions": [
+       "https://www.mathsgenie.co.uk/resources/3-pie-charts.pdf"
+      ]
+     },
+     {
+      "name": "Scatter Graphs",
+      "objectives": [
+       "Draw and interpret scatter graphs"
+      ],
+      "videos": [
+       "https://youtu.be/wbq1aWoT8DU"
+      ],
+      "questions": []
+     },
+     {
+      "name": "Cumulative Frequency Graphs",
+      "objectives": [
+       "Draw and interpret cumulative frequency graphs"
+      ],
+      "videos": [
+       "https://youtu.be/bJbJ_GElF80"
+      ],
+      "questions": [
+       "https://www.mathsgenie.co.uk/resources/6-cumulative-frequency.pdf"
+      ]
+     },
+     {
+      "name": "Histograms",
+      "objectives": [
+       "Calculate frequency density",
+       "Draw and interpret histograms"
+      ],
+      "videos": [
+       "https://youtu.be/DMgczUH9U0Q"
+      ],
+      "questions": [
+       "https://www.mathsgenie.co.uk/resources/7-histograms.pdf"
+      ]
+     },
+     {
+      "name": "Coordinates and Lines",
+      "objectives": [],
+      "videos": [],
+      "questions": []
+     },
+     {
+      "name": "Plotting Coordinates",
+      "objectives": [
+       "Plot coordinates in all 4 quadrants"
+      ],
+      "videos": [
+       "https://youtu.be/Sg1nDbJwgv0"
+      ],
+      "questions": [
+       "https://www.mathsgenie.co.uk/resources/1-coordinates.pdf"
+      ]
+     },
+     {
+      "name": "Plotting Horizontal and Vertical Graphs",
+      "objectives": [
+       "Find the equation of horizontal and vertical lines",
+       "Draw horizontal and vertical lines"
+      ],
+      "videos": [],
+      "questions": []
+     },
+     {
+      "name": "Plotting Y=mx+c",
+      "objectives": [
+       "Recongise and draw graphs of y=x and y=-x",
+       "Plot graphs of straight lines using a table of values"
+      ],
+      "videos": [
+       "https://youtu.be/WZC1f3QmkrU"
+      ],
+      "questions": [
+       "https://www.mathsgenie.co.uk/resources/3-linear-graphs.pdf"
+      ]
+     },
+     {
+      "name": "Plotting Quadratics",
+      "objectives": [
+       "Plot graphs of quadratic functions"
+      ],
+      "videos": [
+       "https://youtu.be/rM_A8t0CV7A"
+      ],
+      "questions": [
+       "https://www.mathsgenie.co.uk/resources/5-quadratic-graphs.pdf"
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Transformations",
+    "num": 13,
+    "lessons": [
+     {
+      "name": "Translation",
+      "objectives": [
+       "Translate a shape",
+       "Describe a translation"
+      ],
+      "videos": [
+       "https://youtu.be/leHYLEPe0ZE"
+      ],
+      "questions": [
+       "https://www.mathsgenie.co.uk/resources/3-translations.pdf"
+      ]
+     },
+     {
+      "name": "Reflection",
+      "objectives": [
+       "Reflect a shape with a horizontal or vertical mirror line",
+       "Reflect a shape with a diagonal mirror line",
+       "Describe a reflection"
+      ],
+      "videos": [
+       "https://youtu.be/RAOcTmX7nS4"
+      ],
+      "questions": [
+       "https://www.mathsgenie.co.uk/resources/3-reflections.pdf"
+      ]
+     },
+     {
+      "name": "Rotation",
+      "objectives": [
+       "Rotate a shape",
+       "Describe a rotation"
+      ],
+      "videos": [
+       "https://youtu.be/bS9naYK7Nw0"
+      ],
+      "questions": [
+       "https://www.mathsgenie.co.uk/resources/3-rotations.pdf"
+      ]
+     },
+     {
+      "name": "Enlargement",
+      "objectives": [
+       "Enlarge a shape by a given scale factor",
+       "Enlarge a shape by a fractional scale factor",
+       "Describe an enlargment"
+      ],
+      "videos": [
+       "https://youtu.be/UUzhM0hAifA"
+      ],
+      "questions": [
+       "https://www.mathsgenie.co.uk/resources/3-enlargements.pdf"
+      ]
+     },
+     {
+      "name": "Combinations of Transformations",
+      "objectives": [
+       "Perform and describe combinations of transformations"
+      ],
+      "videos": [],
+      "questions": [
+       "https://www.mathsgenie.co.uk/resources/3-transformations.pdf"
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Angles",
+    "num": 14,
+    "lessons": [
+     {
+      "name": "Basic Angle Properties",
+      "objectives": [
+       "Use basic angle properties for angles on a straight line and round a point",
+       "Use rules for vertically opposite angles"
+      ],
+      "videos": [
+       "https://youtu.be/3HKQLa8MJLE"
+      ],
+      "questions": [
+       "https://www.mathsgenie.co.uk/resources/2-angles.pdf"
+      ]
+     },
+     {
+      "name": "Angles in Triangles",
+      "objectives": [
+       "Use basic rules for angles in a triangle",
+       "Use rules for specific triangles (equilateral and isosceles)"
+      ],
+      "videos": [],
+      "questions": []
+     },
+     {
+      "name": "Angles in Quadrilaterals",
+      "objectives": [
+       "Use basic angle rules for angles in a quadrilateral",
+       "Use rules for specific quadrilaterals (square, rectangle, rhombus, parallelogram, kite, trapezium/isosceles trapezium)"
+      ],
+      "videos": [],
+      "questions": []
+     },
+     {
+      "name": "Interior Angles in Polygons",
+      "objectives": [
+       "Derive and use angle sum for interior angles in a n sided polygon"
+      ],
+      "videos": [
+       "https://youtu.be/byBQy5GhPwE"
+      ],
+      "questions": [
+       "https://www.mathsgenie.co.uk/resources/4-angles-in-polygons.pdf"
+      ]
+     },
+     {
+      "name": "Exterior Angles in Polygons",
+      "objectives": [
+       "Use angle sum for exterior angles in a n sided polygon"
+      ],
+      "videos": [],
+      "questions": []
+     },
+     {
+      "name": "Angles on Parallel Lines",
+      "objectives": [
+       "Use angle facts dor angles on parallel lines (alternate, corresponding, co-interior)"
+      ],
+      "videos": [
+       "https://youtu.be/dur7iN0nwZs"
+      ],
+      "questions": [
+       "https://www.mathsgenie.co.uk/resources/4-angles-in-parallel-lines.pdf"
+      ]
+     }
+    ]
+   }
+  ]
+ }
+]
